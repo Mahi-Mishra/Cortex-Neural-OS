@@ -75,25 +75,23 @@ It’s not just a blank console, though. I built a persistent system that "remem
 
 ---
 
-```markdown
-## 🚀 Getting Started
 
-### Prerequisites
+🚀 Getting Started
+
+Prerequisites
 
 * GCC Compiler (MinGW for Windows, or standard on Linux/Mac).
 
-### Installation & Run
+Installation & Run
 
-**Option 1: Windows (Easy Mode)**
+*Option 1: Windows (Easy Mode)*
 I have included a script that compiles and runs the code automatically.
 1. Open your terminal in the project folder.
 2. Type:
    ```sh
    ./run
 
-```
-
-*(Or just double-click `run.bat`)*
+(Or just double-click `run.bat`)*
 
 <br />
 
@@ -189,5 +187,6 @@ This project serves as a demonstration of utilizing LLMs as a pair-programmer to
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ```
+
 
 
