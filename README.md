@@ -1,8 +1,65 @@
-🧠 Cortex Neural OS (v8.0)
+<div align="center">
 
-A modular, terminal-based AI Operating System built entirely from scratch in **C**. It features a custom neural network engine (`nn.c`) that powers a suite of real-world applications—from medical triage to cybersecurity—without relying on any external AI libraries like TensorFlow or PyTorch.
+  <h1>🧠 Cortex Neural OS</h1>
+  
+  <p>
+    <b>A Modular, Terminal-Based AI Operating System written in Pure C</b>
+  </p>
 
-💡 About The Project
+<p>
+  <a href="https://github.com/Mahi-Mishra/Cortex-Neural-OS/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/Mahi-Mishra/Cortex-Neural-OS?style=for-the-badge&color=blue" alt="Contributors" />
+  </a>
+  <a href="https://github.com/Mahi-Mishra/Cortex-Neural-OS/network/members">
+    <img src="https://img.shields.io/github/forks/Mahi-Mishra/Cortex-Neural-OS?style=for-the-badge&color=orange" alt="Forks" />
+  </a>
+  <a href="https://github.com/Mahi-Mishra/Cortex-Neural-OS/stargazers">
+    <img src="https://img.shields.io/github/stars/Mahi-Mishra/Cortex-Neural-OS?style=for-the-badge&color=yellow" alt="Stars" />
+  </a>
+  <a href="https://github.com/Mahi-Mishra/Cortex-Neural-OS/issues">
+    <img src="https://img.shields.io/github/issues/Mahi-Mishra/Cortex-Neural-OS?style=for-the-badge&color=red" alt="Issues" />
+  </a>
+  <a href="https://github.com/Mahi-Mishra/Cortex-Neural-OS/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/Mahi-Mishra/Cortex-Neural-OS?style=for-the-badge&color=green" alt="License" />
+  </a>
+</p>
+
+<h4>
+    <a href="https://github.com/Mahi-Mishra/Cortex-Neural-OS/issues">Report Bug</a>
+  <span> · </span>
+    <a href="https://github.com/Mahi-Mishra/Cortex-Neural-OS/issues">Request Feature</a>
+  </h4>
+</div>
+
+<br />
+
+<details>
+  <summary><b>Table of Contents</b></summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#features">Features</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#methodology">Methodology & AI Transparency</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
+
+---
+
+## 💡 About The Project
 
 I've always been curious about how AI *actually* learns. We usually just import libraries and let them do the magic, but I wanted to build the "brain" myself.
 
@@ -10,58 +67,49 @@ I've always been curious about how AI *actually* learns. We usually just import 
 
 It’s not just a blank console, though. I built a persistent system that "remembers" what it learns by saving weights to `.dat` files, and I wrapped it in a menu-driven interface with four fully functional apps to test the AI in different scenarios.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-🚀 Key Features
+### 🛠️ Built With
 
-🧠 The Core Engine
+* ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+* ![GCC](https://img.shields.io/badge/GCC-000000?style=for-the-badge&logo=gnu&logoColor=white)
+* ![Shell](https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
 
- **Zero Dependencies:** Everything runs on standard C logic (`math.h`, `stdlib.h`).
- **Persistent Memory:** The AI saves its training data (`brain_*.dat`) so it gets smarter every time you run it.
- **Crash-Proof:** Custom input handling ensures the program doesn't break if you type text into a number field.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-📱 The App Suite
+---
 
-I built four distinct tools to test the neural net:
-
-1. **🧮 Neuro-Calc:** A "Neural Adder" that learns math by seeing examples, rather than being programmed with rules. It proves the AI is learning logic (outputting `3.99` for `2+2`).
-2. **🚑 Doc-AI (Medical):** An emergency triage bot. I added strict safety layers here—it detects "Impossible" inputs (like 0 BPM or boiling body temp) and flags Cardiac Arrest immediately.
-3. **💪 Fit-Bot:** A metabolic analyzer. It calculates TDEE and gives a full health report card (BMI, Deficit/Surplus) instead of just a generic label.
-4. **🛡️ Spam-Guard:** A context-aware security scanner. You can paste an entire email body, and it analyzes the combination of *Keywords + Links + Caps Lock* to catch scams that simple filters miss.
-
-⚙️ How It Works
-
-The project is split into three main layers:
-
-1. **The Kernel (`nn.c`):** This is the brain. It defines the `NeuralNetwork` struct, manages memory, and handles the Forward/Backward propagation algorithms.
-2. **The Interface (`main.c`):** This acts as the OS. It manages the user menu, screen clearing, and routes data between the user and the specific AI model.
-3. **The Storage (`.dat` files):** Binary files where the AI stores its "knowledge" (weights and biases).
-
-
-💻 Getting Started
+## 🚀 Getting Started
 
 You can run this on any machine with a C compiler (GCC).
 
-Prerequisites
+### Prerequisites
 
-GCC (MinGW for Windows, or standard on Linux/Mac).
+* GCC (MinGW for Windows, or standard on Linux/Mac).
 
-Installation & Run
+### Installation
 
 1. **Clone the repo**
+   ```sh
+   git clone [https://github.com/Mahi-Mishra/Cortex-Neural-OS.git](https://github.com/Mahi-Mishra/Cortex-Neural-OS.git)
+
+```
+
+2. **Navigate to the directory**
 ```sh
-git clone https://github.com/Mahi-Mishra/Cortex-Neural-OS.git
+cd Cortex-Neural-OS
 
 ```
 
 
-2. **Compile**
+3. **Compile the code**
 ```sh
 gcc main.c nn.c -o cortex
 
 ```
 
 
-3. **Run**
+4. **Run the OS**
 ```sh
 ./cortex
 
@@ -70,32 +118,77 @@ gcc main.c nn.c -o cortex
 
 *(Windows users can also just double-click the `build.bat` file included).*
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-🔮 Future Improvements
+---
 
-This project is stable, but I have a few ideas for v9.0:
+## 📱 Usage & Apps
 
- [ ] **GUI Port:** Move from the terminal to a visual window using Raylib to show the neurons firing in real-time.
- [ ] **Smarter NLP:** Upgrade Spam-Guard from simple keyword counting to a proper Bag-of-Words vectorizer.
- [ ] **Game Mode:** Train the AI to play Snake using Reinforcement Learning.
+The OS includes 4 distinct AI applications:
 
+### 1. 🧮 Neuro-Calc
 
-👤 Author
+A "Neural Adder" that learns math by seeing examples, rather than being programmed with rules. It proves the AI is learning logic (outputting `3.99` for `2+2`).
 
-**Mahi Mishra**
+### 2. 🚑 Doc-AI (Medical)
 
- **GitHub:** [Mahi-Mishra](https://github.com/Mahi-Mishra)
+An emergency triage bot. I added strict safety layers here—it detects "Impossible" inputs (like 0 BPM or boiling body temp) and flags Cardiac Arrest immediately.
 
-If you find this code interesting or have ideas on how to optimize the backpropagation math, feel free to reach out or open a pull request!
+### 3. 💪 Fit-Bot
 
-*Built with C, Logic, and a lot of debugging.*
+A metabolic analyzer. It calculates TDEE and gives a full health report card (BMI, Deficit/Surplus) instead of just a generic label.
 
-🤝 Acknowledgments & Methodology
+### 4. 🛡️ Spam-Guard
+
+A context-aware security scanner. You can paste an entire email body, and it analyzes the combination of *Keywords + Links + Caps Lock* to catch scams that simple filters miss.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+## 🔮 Roadmap
+
+* [x] Core Neural Engine (`nn.c`)
+* [x] Persistent Memory System (`.dat` saves)
+* [x] Context-Aware Spam Filter
+* [ ] **GUI Port:** Move from terminal to a visual window using Raylib.
+* [ ] **Smarter NLP:** Upgrade Spam-Guard to use Bag-of-Words vectorizer.
+* [ ] **Game Mode:** Train the AI to play Snake using Reinforcement Learning.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+## 🤝 Methodology
+
+**"How did a First-Year Student build this?"**
 
 This project was developed using an **AI-Assisted Engineering** workflow.
 
-**Architecture & Logic:** Designed by **Mahi Mishra**. I defined the system requirements, the safety protocols (such as the Medical Triage logic), and the application structure.
-**Implementation:** The core C syntax and mathematical algorithms were generated via **Google Gemini** based on my specific architectural prompts and logical constraints.
-**Quality Assurance:** I performed the system testing, debugging, and bias correction (e.g., re-balancing the medical datasets) to ensure the code functions correctly and safely.
+* **Architecture & Logic:** Designed by **Mahi Mishra**. I defined the system requirements, the safety protocols (such as the Medical Triage logic), and the application structure.
+* **Implementation:** The core C syntax and mathematical algorithms were generated via **Google Gemini** based on my specific architectural prompts and logical constraints.
+* **Quality Assurance:** I performed the system testing, debugging, and bias correction (e.g., re-balancing the medical datasets) to ensure the code functions correctly and safely.
 
 This project serves as a demonstration of utilizing LLMs as a pair-programmer to accelerate low-level systems development.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+## 👤 Contact
+
+**Mahi Mishra** GitHub: [@Mahi-Mishra](https://github.com/Mahi-Mishra)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+## 📝 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+```
+
+```
