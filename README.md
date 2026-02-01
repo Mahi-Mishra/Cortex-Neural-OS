@@ -1,4 +1,3 @@
-```markdown
 <div align="center">
 
   <h1>🧠 Cortex Neural OS</h1>
@@ -180,3 +179,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 Once you do that, the License badge on your README will turn green, and the link will actually work!
 
 ```
+
