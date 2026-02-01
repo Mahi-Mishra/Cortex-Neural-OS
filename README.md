@@ -1,4 +1,4 @@
-<div align="center">
+  <div align="center">
 
   <h1>🧠 Cortex Neural OS</h1>
   
@@ -174,9 +174,3 @@ This project serves as a demonstration of utilizing LLMs as a pair-programmer to
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ```
-
----
-Once you do that, the License badge on your README will turn green, and the link will actually work!
-
-```
-
