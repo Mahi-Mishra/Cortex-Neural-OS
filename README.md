@@ -89,7 +89,7 @@ You can run this on any machine with a C compiler (GCC).
    ```sh
    git clone [https://github.com/Mahi-Mishra/Cortex-Neural-OS.git](https://github.com/Mahi-Mishra/Cortex-Neural-OS.git)
 
-```
+
 
 2. **Navigate to the directory**
 ```sh
@@ -174,3 +174,4 @@ This project serves as a demonstration of utilizing LLMs as a pair-programmer to
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ```
+
