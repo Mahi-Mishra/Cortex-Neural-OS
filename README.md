@@ -1,3 +1,4 @@
+```markdown
 <div align="center">
 
   <h1>🧠 Cortex Neural OS</h1>
@@ -67,15 +68,11 @@ I've always been curious about how AI *actually* learns. We usually just import 
 
 It’s not just a blank console, though. I built a persistent system that "remembers" what it learns by saving weights to `.dat` files, and I wrapped it in a menu-driven interface with four fully functional apps to test the AI in different scenarios.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ### 🛠️ Built With
 
 * ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 * ![GCC](https://img.shields.io/badge/GCC-000000?style=for-the-badge&logo=gnu&logoColor=white)
 * ![Shell](https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ---
 
@@ -118,8 +115,6 @@ gcc main.c nn.c -o cortex
 
 *(Windows users can also just double-click the `build.bat` file included).*
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ---
 
 ## 📱 Usage & Apps
@@ -142,8 +137,6 @@ A metabolic analyzer. It calculates TDEE and gives a full health report card (BM
 
 A context-aware security scanner. You can paste an entire email body, and it analyzes the combination of *Keywords + Links + Caps Lock* to catch scams that simple filters miss.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ---
 
 ## 🔮 Roadmap
@@ -154,8 +147,6 @@ A context-aware security scanner. You can paste an entire email body, and it ana
 * [ ] **GUI Port:** Move from terminal to a visual window using Raylib.
 * [ ] **Smarter NLP:** Upgrade Spam-Guard to use Bag-of-Words vectorizer.
 * [ ] **Game Mode:** Train the AI to play Snake using Reinforcement Learning.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ---
 
@@ -171,15 +162,11 @@ This project was developed using an **AI-Assisted Engineering** workflow.
 
 This project serves as a demonstration of utilizing LLMs as a pair-programmer to accelerate low-level systems development.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ---
 
 ## 👤 Contact
 
 **Mahi Mishra** GitHub: [@Mahi-Mishra](https://github.com/Mahi-Mishra)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ---
 
@@ -187,8 +174,9 @@ This project serves as a demonstration of utilizing LLMs as a pair-programmer to
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ```
+
+---
+Once you do that, the License badge on your README will turn green, and the link will actually work!
 
 ```
