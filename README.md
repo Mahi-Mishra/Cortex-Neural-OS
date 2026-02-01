@@ -75,39 +75,54 @@ It’s not just a blank console, though. I built a persistent system that "remem
 
 ---
 
+```markdown
 ## 🚀 Getting Started
-
-You can run this on any machine with a C compiler (GCC).
 
 ### Prerequisites
 
-* GCC (MinGW for Windows, or standard on Linux/Mac).
+* GCC Compiler (MinGW for Windows, or standard on Linux/Mac).
 
-### Installation
+### Installation & Run
+
+**Option 1: Windows (Easy Mode)**
+I have included a script that compiles and runs the code automatically.
+1. Open your terminal in the project folder.
+2. Type:
+   ```sh
+   ./run
+
+```
+
+*(Or just double-click `run.bat`)*
+
+<br />
+
+**Option 2: Linux / Mac / Manual**
+If you prefer doing it manually:
 
 1. **Clone the repo**
-   ```sh
-   git clone [https://github.com/Mahi-Mishra/Cortex-Neural-OS.git](https://github.com/Mahi-Mishra/Cortex-Neural-OS.git)
-
-
-
-2. **Navigate to the directory**
 ```sh
-cd Cortex-Neural-OS
+git clone [https://github.com/Mahi-Mishra/Cortex-Neural-OS.git](https://github.com/Mahi-Mishra/Cortex-Neural-OS.git)
 
 ```
 
 
-3. **Compile the code**
+2. **Compile**
 ```sh
 gcc main.c nn.c -o cortex
 
 ```
 
 
-4. **Run the OS**
+3. **Run**
 ```sh
 ./cortex
+
+```
+
+
+
+```
 
 ```
 
@@ -174,4 +189,5 @@ This project serves as a demonstration of utilizing LLMs as a pair-programmer to
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ```
+
 
