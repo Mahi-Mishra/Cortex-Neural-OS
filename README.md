@@ -91,7 +91,7 @@ I have included a script that compiles and runs the code automatically.
    ```sh
    ./run
 
-(Or just double-click `run.bat`)*
+(Or just double-click `run.bat`)
 
 <br />
 
@@ -115,12 +115,6 @@ gcc main.c nn.c -o cortex
 3. **Run**
 ```sh
 ./cortex
-
-```
-
-
-
-```
 
 ```
 
@@ -187,6 +181,7 @@ This project serves as a demonstration of utilizing LLMs as a pair-programmer to
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ```
+
 
 
 
